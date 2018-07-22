@@ -4,7 +4,11 @@ var getUser=(id,callback)=>{
           name: 'milan'
     };
 
+    setTimeout(() => {
     callback(user);
+  },3000);
+
+
 };
 
 
